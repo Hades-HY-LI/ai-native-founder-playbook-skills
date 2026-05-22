@@ -27,6 +27,20 @@ After installing, start a fresh agent session and ask:
 Use the founders-playbook-router skill to interview me, diagnose my startup stage, and recommend what to do next.
 ```
 
+### Install From GitHub In Codex
+
+Codex users can also install the skills directly from this GitHub repo with `$skill-installer`.
+
+```text
+$skill-installer install https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills/tree/main/skills/founders-playbook-router
+$skill-installer install https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills/tree/main/skills/ai-native-idea-stage
+$skill-installer install https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills/tree/main/skills/ai-native-mvp-stage
+$skill-installer install https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills/tree/main/skills/ai-native-launch-stage
+$skill-installer install https://github.com/Hades-HY-LI/ai-native-founder-playbook-skills/tree/main/skills/ai-native-scale-stage
+```
+
+After installing, restart Codex so it reloads the new skills.
+
 ### Manual Install
 
 Use this section if you prefer to see exactly what gets copied.
@@ -44,6 +58,8 @@ Claude Code can install the same skill folders globally:
 mkdir -p "$HOME/.claude/skills"
 cp -R skills/* "$HOME/.claude/skills/"
 ```
+
+Claude Code does not use Codex's `$skill-installer`. Use the copy commands above, `./install.sh claude`, or package the repo as a Claude Code plugin when you want marketplace-style distribution.
 
 Or into a single project:
 
