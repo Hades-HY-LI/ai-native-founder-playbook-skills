@@ -1,0 +1,20 @@
+flowchart TD
+  Roles["Generic AI roles"]
+  Roles --> Chat["Chat assistant"]
+  Roles --> Research["Research assistant"]
+  Roles --> Coding["Coding agent"]
+  Roles --> Workspace["Collaborative workspace"]
+  Roles --> API["Model/API platform"]
+  Roles --> Workflow["Workflow agent"]
+  Roles --> Evals["Evaluation assistant"]
+
+  Chat --> Idea["Idea"]
+  Research --> Idea
+  Coding --> MVP["MVP"]
+  API --> MVP
+  Evals --> MVP
+  Workflow --> Launch["Launch"]
+  Research --> Launch
+  Workspace --> Scale["Scale"]
+  Workflow --> Scale
+  Evals --> Scale

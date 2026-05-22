@@ -1,0 +1,9 @@
+description = "Diagnose founder stage and route to the right AI-native founder playbook skill."
+prompt = """
+Use the founder playbook router skill from skills/founders-playbook-router/SKILL.md.
+If you need deeper guidance, read only the relevant files under references/ or the routed stage skill.
+Interview the user when context is thin, diagnose their stage, and recommend what to do next.
+
+User request:
+{{args}}
+"""

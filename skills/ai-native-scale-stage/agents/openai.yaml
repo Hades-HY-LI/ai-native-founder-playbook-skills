@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-Native Scale Stage"
+  short_description: "Scale GTM, team, metrics, and operations"
+  default_prompt: "Use $ai-native-scale-stage to interview me about traction, identify scale bottlenecks, and build an operating plan."

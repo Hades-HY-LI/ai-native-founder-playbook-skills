@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Router"
+  short_description: "Route founders to the right startup stage"
+  default_prompt: "Use $founders-playbook-router to interview me, diagnose my startup stage, and choose the right founder playbook workflow."

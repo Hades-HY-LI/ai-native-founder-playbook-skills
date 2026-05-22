@@ -1,0 +1,12 @@
+flowchart TD
+  Input["Founder context\ncustomer, problem, product, users, tools, constraint, desired output"]
+  Router["founders-playbook-router"]
+  Stage["Stage skill"]
+  References["Stage references"]
+  Artifact["Practical artifact\nplan, memo, script, scope, dashboard, cadence"]
+
+  Input --> Router
+  Router --> Stage
+  Stage --> References
+  References --> Artifact
+  Stage --> Artifact

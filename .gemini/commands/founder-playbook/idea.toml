@@ -1,0 +1,9 @@
+description = "Use the AI-native idea stage skill."
+prompt = """
+Use the AI-native idea stage skill from skills/ai-native-idea-stage/SKILL.md.
+If needed, read only the relevant files under skills/ai-native-idea-stage/references/.
+Interview the user when context is thin, then produce the requested validation artifact.
+
+User request:
+{{args}}
+"""

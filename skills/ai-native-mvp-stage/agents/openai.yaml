@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-Native MVP Stage"
+  short_description: "Scope and ship AI-native MVPs"
+  default_prompt: "Use $ai-native-mvp-stage to interview me about my MVP, reduce build risk, and plan the next shippable milestone."

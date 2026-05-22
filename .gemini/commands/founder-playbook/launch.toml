@@ -1,0 +1,9 @@
+description = "Use the AI-native launch stage skill."
+prompt = """
+Use the AI-native launch stage skill from skills/ai-native-launch-stage/SKILL.md.
+If needed, read only the relevant files under skills/ai-native-launch-stage/references/.
+Interview the user when context is thin, then produce the requested launch artifact.
+
+User request:
+{{args}}
+"""

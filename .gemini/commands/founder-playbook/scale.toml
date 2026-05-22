@@ -1,0 +1,9 @@
+description = "Use the AI-native scale stage skill."
+prompt = """
+Use the AI-native scale stage skill from skills/ai-native-scale-stage/SKILL.md.
+If needed, read only the relevant files under skills/ai-native-scale-stage/references/.
+Interview the user when context is thin, then produce the requested scale artifact.
+
+User request:
+{{args}}
+"""

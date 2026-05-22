@@ -1,0 +1,9 @@
+description = "Use the AI-native MVP stage skill."
+prompt = """
+Use the AI-native MVP stage skill from skills/ai-native-mvp-stage/SKILL.md.
+If needed, read only the relevant files under skills/ai-native-mvp-stage/references/.
+Interview the user when context is thin, then produce the requested MVP artifact.
+
+User request:
+{{args}}
+"""

@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+tmp/
+.cache/
+docs/social-posts.md
+references/source/*.pdf

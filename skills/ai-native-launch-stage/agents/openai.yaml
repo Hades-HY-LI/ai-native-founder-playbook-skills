@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-Native Launch Stage"
+  short_description: "Launch, sell, and learn with AI workflows"
+  default_prompt: "Use $ai-native-launch-stage to interview me about my launch and plan first customers, onboarding, pricing, and feedback loops."
